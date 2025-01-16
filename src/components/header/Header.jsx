@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.css';
+import './header.css';
 import logoImg from '../../assets/logo.png';
 import { CgProfile } from 'react-icons/cg';
 import { LogOutIcon } from 'lucide-react';
