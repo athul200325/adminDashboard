@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Users } from 'lucide-react';
-import './Dashboard.css';
+import './dashboard.css';
 import users from '../../data/dummyUsers.js';
 import { RxPerson } from 'react-icons/rx';
 import { IoGiftOutline } from 'react-icons/io5';
