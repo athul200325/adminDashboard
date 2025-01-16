@@ -10,7 +10,7 @@ const EmailVerification = ({ onVerifyEmail, onBackToLogin }) => {
     setToast({ message, type });
     setTimeout(() => {
       setToast({ message: '', type: '' });
-    }, 3000); // Hide toast after 3 seconds
+    }, 3000); 
   };
 
   const validateEmail = () => {
@@ -28,7 +28,7 @@ const EmailVerification = ({ onVerifyEmail, onBackToLogin }) => {
     const validationError = validateEmail();
     if (validationError) {
       setEmailError(validationError);
-      document.getElementById('email').focus(); // Focus on the email input
+      document.getElementById('email').focus(); 
       return;
     }
 
