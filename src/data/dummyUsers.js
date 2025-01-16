@@ -1,0 +1,37 @@
+const users = [
+    { id: '01', nickname: 'ゆうじ', email: 'yuji@example.com', birthDate: '1992年12月', gender: '男性', region: '東京都', registerDate: '2024年01月12日' },
+    { id: '02', nickname: 'さくら', email: 'sakura@example.net', birthDate: '1987年05月', gender: '女性', region: '大阪府', registerDate: '2024年01月12日' },
+    { id: '03', nickname: 'わんこ好き', email: 'wanko@gmail.com', birthDate: '1996年10月', gender: '男性', region: '神奈川県', registerDate: '2024年01月11日' },
+    { id: '04', nickname: 'はるかぜ', email: 'harukaze@yahoo.co.jp', birthDate: '1995年02月', gender: '女性', region: '静岡県', registerDate: '2024年01月10日' },
+    { id: '05', nickname: 'たけし', email: 'takeshi@outlook.com', birthDate: '1978年05月', gender: '男性', region: '福岡県', registerDate: '2024年01月10日' },
+    { id: '06', nickname: 'あおい', email: 'aoi@example.jp', birthDate: '1990年07月', gender: '女性', region: '北海道', registerDate: '2024年01月09日' },
+    { id: '07', nickname: 'りんご大好き', email: 'ringo@apple.jp', birthDate: '2000年03月', gender: '女性', region: '青森県', registerDate: '2024年01月08日' },
+    { id: '08', nickname: 'たろう', email: 'taro@gmail.com', birthDate: '1985年06月', gender: '男性', region: '東京都', registerDate: '2024年01月07日' },
+    { id: '09', nickname: 'にゃんこ派', email: 'nyanko@yahoo.jp', birthDate: '1998年01月', gender: '女性', region: '大阪府', registerDate: '2024年01月06日' },
+    { id: '10', nickname: '山田', email: 'yamada@tokyo.jp', birthDate: '1980年11月', gender: '男性', region: '東京都', registerDate: '2024年01月05日' },
+    { id: '11', nickname: 'おしゃれ好き', email: 'fashionista@gmail.com', birthDate: '1994年08月', gender: '女性', region: '京都府', registerDate: '2024年01月04日' },
+    { id: '12', nickname: 'ヒーロー', email: 'hero@example.com', birthDate: '1983年12月', gender: '男性', region: '兵庫県', registerDate: '2024年01月03日' },
+    { id: '13', nickname: 'サッカー少年', email: 'soccerboy@gmail.com', birthDate: '2003年04月', gender: '男性', region: '埼玉県', registerDate: '2024年01月02日' },
+    { id: '14', nickname: '美味しいもの', email: 'foodie@example.com', birthDate: '1991年09月', gender: '女性', region: '宮城県', registerDate: '2024年01月01日' },
+    { id: '15', nickname: 'アニメオタク', email: 'animefan@yahoo.jp', birthDate: '1997年05月', gender: '男性', region: '岐阜県', registerDate: '2024年01月01日' },
+    { id: '16', nickname: '音楽好き', email: 'musiclover@gmail.com', birthDate: '1989年02月', gender: '女性', region: '奈良県', registerDate: '2023年12月30日' },
+    { id: '17', nickname: '自転車乗り', email: 'cyclist@ride.jp', birthDate: '1986年10月', gender: '男性', region: '長野県', registerDate: '2023年12月29日' },
+    { id: '18', nickname: 'ゲーム大好き', email: 'gamer@yahoo.com', birthDate: '1995年07月', gender: '男性', region: '広島県', registerDate: '2023年12月28日' },
+    { id: '19', nickname: 'スポーツマン', email: 'sportsman@example.com', birthDate: '1984年01月', gender: '男性', region: '福井県', registerDate: '2023年12月27日' },
+    { id: '20', nickname: 'お花好き', email: 'flowerfan@gmail.com', birthDate: '1993年03月', gender: '女性', region: '愛知県', registerDate: '2023年12月26日' },
+    { id: '21', nickname: 'ハイカー', email: 'hiker@yahoo.jp', birthDate: '1981年06月', gender: '男性', region: '山梨県', registerDate: '2023年12月25日' },
+    { id: '22', nickname: 'ドラマ好き', email: 'dramalover@gmail.com', birthDate: '1988年11月', gender: '女性', region: '高知県', registerDate: '2023年12月24日' },
+    { id: '23', nickname: '歴史マニア', email: 'historyfan@example.com', birthDate: '1992年08月', gender: '男性', region: '京都府', registerDate: '2023年12月23日' },
+    { id: '24', nickname: 'コーヒー好き', email: 'coffee@gmail.com', birthDate: '1990年09月', gender: '女性', region: '熊本県', registerDate: '2023年12月22日' },
+    { id: '25', nickname: '読書家', email: 'booklover@example.com', birthDate: '1983年12月', gender: '男性', region: '東京都', registerDate: '2023年12月21日' },
+    { id: '26', nickname: 'キャンパー', email: 'camper@yahoo.com', birthDate: '1994年05月', gender: '男性', region: '北海道', registerDate: '2023年12月20日' },
+    { id: '27', nickname: '旅好き', email: 'traveller@gmail.com', birthDate: '1986年10月', gender: '女性', region: '石川県', registerDate: '2023年12月19日' },
+    { id: '28', nickname: '写真家', email: 'photographer@example.com', birthDate: '1991年07月', gender: '男性', region: '岡山県', registerDate: '2023年12月18日' },
+    { id: '29', nickname: '料理人', email: 'chef@yahoo.jp', birthDate: '1987年04月', gender: '男性', region: '愛媛県', registerDate: '2023年12月17日' },
+    { id: '30', nickname: 'ペット好き', email: 'petlover@gmail.com', birthDate: '1999年06月', gender: '女性', region: '長崎県', registerDate: '2023年12月16日' },
+    { id: '31', nickname: 'ドライブ好き', email: 'driver@yahoo.com', birthDate: '1980年03月', gender: '男性', region: '栃木県', registerDate: '2023年12月15日' },
+    // Continue adding more users up to 50...
+  ];
+  
+  export default users;
+  

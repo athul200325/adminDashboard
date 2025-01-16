@@ -1,0 +1,29 @@
+
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F5F0;
+    opacity: 1;
+    animation: fadeOut 1.2s ease-out forwards;
+  }
+  
+ 
+  .img {
+    width: 300px;
+    height: auto;
+    animation: scaleIn 0.6s ease-out forwards;
+  }
+  
+ 
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
